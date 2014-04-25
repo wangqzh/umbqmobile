@@ -1,4 +1,4 @@
-#region1 {
+ #region1 {
 height:fill;
 layout:relative;
 width:fill;
@@ -58,7 +58,7 @@ width:fill;
 margin-bottom:12;
 valign:center;
 }
- #label4 {
+ #labelProductItemName {
 hAlign:left;
 height:fill;
 color:#000000;
@@ -74,7 +74,7 @@ background:#ffffff;
 width:fill;
 valign:center;
 }
- #label5 {
+ #labelProductDesc {
 hAlign:left;
 height:fill;
 weight:142;
@@ -84,7 +84,7 @@ width:0;
 font-family:default;
 vAlign:center;
 }
- #label6 {
+ #labelProductItemPrice {
 hAlign:right;
 height:fill;
 weight:105;
