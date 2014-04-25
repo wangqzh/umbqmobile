@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application id="bqmobile" appname="bqmobile" versionCode="1" versionName="1" icon="app">
+  <permission id="internet"/>
+  <components>
+    <component name="bqmobile" start="true"/>
+  </components>
+</application>

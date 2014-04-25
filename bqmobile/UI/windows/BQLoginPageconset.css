@@ -1,0 +1,156 @@
+ #BQLoginPageconset {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+background-image:contest_bg;
+}
+ #navigatorbar0 {
+padding-left:8;
+padding-right:8;
+pressed-image:nav;
+width:fill;
+background-image-dis:navbar_login;
+height:44.0;
+color:#000000;
+layout:hbox;
+font-size:17;
+font-family:default;
+valign:center;
+background-image:navbar_login;
+}
+ #label0 {
+hAlign:center;
+height:14.0;
+color:#000000;
+font-size:14;
+width:32.0;
+font-family:default;
+vAlign:center;
+}
+ #label2 {
+hAlign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:17;
+width:0;
+font-family:default;
+vAlign:center;
+}
+ #label1 {
+hAlign:center;
+height:14.0;
+color:#000000;
+font-size:14;
+width:32.0;
+font-family:default;
+vAlign:center;
+}
+ #panel0 {
+margin-right:12;
+height:44;
+layout:hbox;
+width:fill;
+margin-left:12;
+margin-top:2;
+valign:center;
+}
+ #textbox0 {
+padding-left:2;
+padding-top:21;
+height:44;
+weight:2;
+color:#000000;
+font-size:16;
+width:0;
+font-family:default;
+padding-bottom:5;
+background-image:setting_ip;
+halign:LEFT;
+}
+ #label3 {
+hAlign:center;
+height:44;
+color:#000000;
+font-size:14;
+width:26;
+font-family:default;
+vAlign:center;
+}
+ #textbox1 {
+padding-left:2;
+padding-top:21;
+height:44;
+weight:1;
+color:#000000;
+font-size:16;
+width:0;
+font-family:default;
+padding-bottom:5;
+background-image:setting_port;
+halign:LEFT;
+}
+ #panel1 {
+margin-right:12;
+height:32;
+layout:hbox;
+width:fill;
+margin-left:12;
+margin-bottom:12;
+margin-top:12;
+valign:center;
+}
+ #label4 {
+hAlign:center;
+height:14.0;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+vAlign:center;
+}
+ #label5 {
+hAlign:center;
+height:fill;
+color:#000000;
+font-size:14;
+width:100;
+font-family:default;
+vAlign:center;
+}
+ #switch0 {
+padding-left:2;
+switch-trackon-image:slideswitch;
+height:fill;
+color:#e50011;
+pressed-image:slideswitch;
+font-size:18;
+width:51;
+background-image-dis:slideswitch;
+font-family:default;
+switch-trackoff-image:switch_off;
+background-image:slideswitch;
+}
+ #button0 {
+hAlign:center;
+width:fill;
+font-pressed-color:#ffffff;
+pressed-color:#e50011;
+margin-right:12;
+height:44;
+color:#e50011;
+background:#ffffff;
+font-size:17;
+margin-left:12;
+font-family:default;
+vAlign:center;
+}

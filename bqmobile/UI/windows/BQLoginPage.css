@@ -1,0 +1,146 @@
+ #BQLoginPage {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+}
+ #viewPageLogin {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+background-image:contest_bg;
+}
+ #navigatorbar0 {
+height:44.0;
+color:#e50011;
+pressed-image:nav;
+layout:hbox;
+font-size:17;
+width:fill;
+background-image-dis:navbar_login;
+font-family:default;
+valign:center;
+background-image:navbar_login;
+}
+ #button0 {
+hAlign:center;
+height:44;
+color:#e50011;
+font-size:18;
+width:84;
+font-family:default;
+vAlign:center;
+}
+ #labelLoginTitle {
+hAlign:center;
+height:25.0;
+weight:1;
+color:#000000;
+font-size:17;
+width:0;
+font-family:default;
+vAlign:center;
+}
+ #buttonConset {
+margin-right:12;
+hAlign:center;
+height:44;
+color:#e50011;
+font-size:17;
+width:72;
+font-family:default;
+vAlign:center;
+}
+ #textboxUserName {
+padding-left:39;
+padding-top:21;
+halign:LEFT;
+pressed-image:textbox;
+width:fill;
+background-image-dis:textbox;
+padding-bottom:5;
+margin-right:12;
+height:44;
+color:#000000;
+font-size:16;
+margin-left:12;
+font-family:default;
+margin-top:2;
+background-image:textbox_user;
+}
+ #textboxPassword {
+padding-left:39;
+padding-top:21;
+halign:LEFT;
+pressed-image:textbox;
+width:fill;
+background-image-dis:textbox;
+padding-bottom:5;
+margin-right:12;
+height:44;
+color:#000000;
+font-size:16;
+margin-left:12;
+font-family:default;
+margin-top:4;
+background-image:textbox_passwd;
+}
+ #panel0 {
+margin-right:12;
+height:32;
+layout:hbox;
+width:fill;
+margin-left:12;
+margin-top:12;
+valign:center;
+}
+ #label2 {
+hAlign:center;
+height:14.0;
+weight:1;
+color:#000000;
+font-size:12;
+width:0;
+font-family:default;
+vAlign:center;
+}
+ #labelAutoLogin {
+hAlign:center;
+height:fill;
+color:#000000;
+font-size:14;
+width:90.0;
+font-family:default;
+vAlign:center;
+}
+ #switchAutoLogin {
+padding-left:2;
+height:fill;
+switch-trackon-image:slideswitch;
+color:#e50011;
+pressed-image:slideswitch;
+font-size:18;
+width:51;
+background-image-dis:slideswitch;
+font-family:default;
+switch-trackoff-image:switch_off;
+background-image:slideswitch;
+}
+ #buttonLogin {
+hAlign:center;
+pressed-image:themes/ios7/hdpi/login_touch.png;
+width:fill;
+font-pressed-color:#ffffff;
+pressed-color:#e50011;
+margin-right:12;
+height:44;
+color:#e50011;
+background:#ffffff;
+font-size:17;
+margin-left:12;
+font-family:default;
+margin-top:12;
+vAlign:center;
+}

@@ -1,0 +1,17 @@
+ #WelcomePage {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+}
+ #welcomePageView {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+}
+ #BQBackgroundView {
+height:fill;
+width:fill;
+}

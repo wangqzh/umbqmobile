@@ -1,0 +1,45 @@
+ #region1 {
+height:fill;
+layout:relative;
+width:fill;
+}
+ #widgetdefine0 {
+height:80.0;
+layout:hbox;
+width:320.0;
+left:30.0;
+valign:center;
+top:240.0;
+}
+ #panel0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#FFFFE0;
+width:fill;
+}
+ #label0 {
+hAlign:center;
+widthWrap:32.0;
+height:wrap;
+color:#000000;
+heightWrap:14.0;
+font-size:14;
+width:wrap;
+font-family:default;
+vAlign:center;
+}
+ #button0 {
+hAlign:center;
+widthWrap:44;
+pressed-image:button_touch;
+width:wrap;
+background-image-dis:button;
+font-pressed-color:#f2adb2;
+height:44;
+color:#e50011;
+font-size:17;
+font-family:default;
+vAlign:center;
+background-image:button;
+}

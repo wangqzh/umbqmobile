@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.yonyou"
+    android:versionCode="1"
+    android:versionName="1" >
+   
+    <uses-sdk
+        android:minSdkVersion="10"
+        android:targetSdkVersion="17" />
+    
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <permission
+        android:name="com.yonyou.uap.um.widget.permission.MAPS_RECEIVE"
+        android:protectionLevel="signature" />
+    <uses-permission android:name="com.yonyou.uap.um.widget.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>     
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+    
+    <supports-screens
+        android:anyDensity="false"
+        android:xlargeScreens="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true" />
+
+    <application
+    	android:name="com.yonyou.uap.um.core.UAPMobileApplication"
+        android:allowBackup="true"
+        android:icon="@drawable/app"
+        android:label="@string/bqmobile"
+        android:theme="@style/AppTheme" >
+        
+		<activity
+  android:name="com.yonyou.BQLoginPageconsetExtendActivity"  
+	  android:windowSoftInputMode="adjustPan|stateHidden"
+ >
+<intent-filter> <action android:name="com.yonyou.BQLoginPageconset" />
+<category android:name="android.intent.category.DEFAULT" /></intent-filter>
+</activity>
+<activity
+  android:name="com.yonyou.WelcomePageExtendActivity"  
+	  android:windowSoftInputMode="adjustPan|stateHidden"
+ >
+<intent-filter>
+  <action android:name="android.intent.action.MAIN" />
+  <category android:name="android.intent.category.LAUNCHER" />
+</intent-filter>
+<intent-filter> <action android:name="com.yonyou.WelcomePage" />
+<category android:name="android.intent.category.DEFAULT" /></intent-filter>
+</activity>
+<activity
+  android:name="com.yonyou.BQHomePageExtendActivity"  
+	  android:windowSoftInputMode="adjustPan|stateHidden"
+ >
+<intent-filter> <action android:name="com.yonyou.BQHomePage" />
+<category android:name="android.intent.category.DEFAULT" /></intent-filter>
+</activity>
+<activity
+  android:name="com.yonyou.BQLoginPageExtendActivity"  
+	  android:windowSoftInputMode="adjustPan|stateHidden"
+ >
+<intent-filter> <action android:name="com.yonyou.BQLoginPage" />
+<category android:name="android.intent.category.DEFAULT" /></intent-filter>
+</activity>
+
+		
+		<activity
+            android:name="com.yonyou.uap.um.control.UMTwoDCodeActivity" >
+            <intent-filter>
+                <action android:name="com.yonyou.uap.um.control.UMTwoDCode" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yonyou.uap.um.control.UMCameraActivity" >
+            <intent-filter>
+                <action android:name="com.yonyou.uap.um.control.UMCamera" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yonyou.uap.um.control.UMMapActivity" >
+            <intent-filter>
+                <action android:name="com.yonyou.uap.um.control.UMMap" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.yonyou.uap.um.runtime.ExtraMapActivity" >
+        </activity>
+		
+	   <meta-data
+            android:name="com.baidu.android.maps.API_KEY"
+            android:value="61594ACA1D4A42133A0EC244715D0E0968A30A2F" />
+            
+    </application>
+
+</manifest>

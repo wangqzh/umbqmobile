@@ -1,0 +1,18 @@
+ #BQHomePage {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+}
+ #slidingViewHome {
+height:460.0;
+width:320.0;
+background-image:slideview;
+}

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application id="bqmobile" appname="bqmobile" versionCode="1" versionName="1" icon="app" theme="ios7" package="com.yonyou" language="zh_cn"> 
+  <permission id="internet"/>  
+  <start view="WelcomePage"/>  
+  <view id="BQLoginPageconset" ref="BQLoginPageConset.dsl"/>
+  <view id="WelcomePage" ref="WelcomePage.dsl"/>
+  <view id="BQHomePage" ref="BQHomePage.dsl"/>
+  <view id="BQLoginPage" ref="BQLoginPage.dsl"/>
+</application>
