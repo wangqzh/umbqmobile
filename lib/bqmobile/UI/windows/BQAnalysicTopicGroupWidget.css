@@ -1,0 +1,39 @@
+ #region1 {
+height:fill;
+layout:relative;
+width:fill;
+}
+ #BQAnalysisTopicGroupWidget {
+height:80.0;
+layout:hbox;
+width:fill;
+left:0.0;
+valign:center;
+top:10.0;
+}
+ #panel1 {
+halign:left;
+height:30;
+layout:vbox;
+background:#c0c0c0;
+width:fill;
+}
+ #label0 {
+hAlign:left;
+height:fill;
+color:#000000;
+font-size:14;
+width:234;
+margin-left:12;
+font-family:default;
+vAlign:center;
+}
+ #panel0 {
+halign:left;
+height:fill;
+layout:vbox;
+background:#c0c0c0;
+width:fill;
+left:0.0;
+top:0.0;
+}

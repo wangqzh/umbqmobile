@@ -1,0 +1,93 @@
+ #region1 {
+height:fill;
+width:fill;
+layout:relative;
+margin-top:4;
+}
+ #BQFaverateToolbar {
+height:44;
+width:320.0;
+layout:hbox;
+left:0.0;
+valign:center;
+top:130.0;
+}
+ #panel0 {
+halign:center;
+height:44.0;
+width:fill;
+layout:vbox;
+background:#FFFFE0;
+}
+ #toolbar0 {
+height:44.0;
+width:fill;
+layout:hbox;
+valign:center;
+background-image:toolbar.png;
+}
+ #imagebutton1 {
+hAlign:center;
+width:64;
+icon-width:25;
+font-pressed-color:#e50011;
+pressed-color:#f8f8f8;
+icon-height:25;
+height:fill;
+color:#919191;
+font-size:10;
+icon-background-image:themes/ios7/designer/tab_fav.png;
+icon-pressed-image:themes/ios7/designer/tab_fav_touch.png;
+font-family:default;
+vAlign:center;
+icon-text-spacing:5;
+}
+ #label0 {
+hAlign:center;
+height:fill;
+widthWrap:63.0;
+weight:21;
+color:#000000;
+font-size:14;
+width:wrap;
+font-family:default;
+vAlign:center;
+}
+ #label1 {
+hAlign:center;
+height:fill;
+widthWrap:66.0;
+weight:22;
+color:#000000;
+font-size:14;
+width:wrap;
+font-family:default;
+vAlign:center;
+}
+ #label2 {
+hAlign:center;
+height:fill;
+widthWrap:63.0;
+weight:21;
+color:#000000;
+font-size:14;
+width:wrap;
+font-family:default;
+vAlign:center;
+}
+ #imagebutton4 {
+hAlign:center;
+width:64;
+icon-width:25;
+font-pressed-color:#e50011;
+pressed-color:#f8f8f8;
+icon-height:25;
+height:fill;
+color:#919191;
+font-size:10;
+icon-background-image:themes/ios7/designer/tab_search.png;
+icon-pressed-image:themes/ios7/designer/tab_search_touch.png;
+font-family:default;
+vAlign:center;
+icon-text-spacing:5;
+}

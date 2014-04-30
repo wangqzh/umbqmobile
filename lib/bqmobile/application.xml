@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<application id="umpbqmobile" appname="umpbqmobile" versionCode="1" versionName="1" icon="app" theme="ios7" package="com.yonyou.uap" language="zh_cn"> 
+  <permission id="internet"/>  
+  <start view="BQWelcomePage"/>  
+  <view id="BQDetailAnalysisContentPage" ref="BQDetailAnalysisContentPage.dsl"/>
+  <view id="BQFramePage" ref="BQFramePage.dsl"/>
+  <view id="BQWelcomePage" ref="BQWelcomePage.dsl"/>
+  <view id="BQLoginPage" ref="BQLoginPage.dsl"/>
+  <view id="BQLoginConsetPage" ref="BQLoginConsetPage.dsl"/>
+</application>

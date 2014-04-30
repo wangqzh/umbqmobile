@@ -1,0 +1,42 @@
+ #region1 {
+height:fill;
+layout:relative;
+width:fill;
+}
+ #BQAnalysisTopicRowWidget {
+height:80.0;
+layout:hbox;
+width:fill;
+left:0.0;
+valign:center;
+top:90.0;
+}
+ #panel0 {
+height:60;
+layout:hbox;
+background:#ffffff;
+width:fill;
+valign:center;
+}
+ #label0 {
+hAlign:left;
+height:20.0;
+color:#000000;
+font-size:14;
+width:160.0;
+margin-left:12;
+font-family:default;
+vAlign:center;
+}
+ #label1 {
+margin-right:12;
+hAlign:left;
+height:wrap;
+widthWrap:130.0;
+color:#000000;
+heightWrap:20.0;
+font-size:14;
+width:wrap;
+font-family:default;
+vAlign:center;
+}

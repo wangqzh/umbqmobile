@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contexts namespace="com.yonyou.uap"> 
+  <context id="USERS" from-type="context" filter="" iscascade="false"> 
+    <field id="userName" type="string"/>  
+    <field id="passWord" type="string"/>
+    <field id="ishttps" type="string"/>	
+  </context> 
+</contexts>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contexts namespace="com.yonyou.uap">
+  <context id="delaytime" from-type="context" filter="" iscascade="false">
+    <field id="second" type="float"/>
+  </context>
+</contexts>

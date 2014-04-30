@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="loadingData">"数据加载中..."</string>
+    <string name="locationing">"努力定位中，请稍候……"</string>
+    <string name="withoutMapKey">"地图无法使用，请先申请百度mapkey！！！"</string>
+    <string name="latitude">"纬度"</string>
+    <string name="longitude">"经度"</string>
+    <string name="errorNumber">"错误号"</string>
+    <string name="sorryformap1">"很抱歉，未查到含有“ "</string>
+    <string name="sorryformap2">"”关键字的兴趣点！"</string>
+</resources>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<region id="region1">
+    <import ref="BQMenuPage.css" type="css"/>
+    <import ref="BQMenuRow.w" type="widget"/>
+    <div id="panel0">
+        <widget-define id="widgetdefineMenu" name="侧边栏目录" describe="侧边栏目录">
+            <div id="panel1">
+                <input id="button0" value="用户信息" type="button"/>
+                <input id="button1" value="系统设置" type="button"/>
+                <listView id="listview0" childIndicator="BQMenuRow">
+                    <widget id="listview0_childWgt0" ref="BQMenuRow"/>
+                </listView>
+            </div>
+        </widget-define>
+    </div> 
+</region>

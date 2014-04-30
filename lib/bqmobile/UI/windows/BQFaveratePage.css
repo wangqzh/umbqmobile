@@ -1,0 +1,35 @@
+ #region1 {
+height:fill;
+layout:relative;
+width:fill;
+}
+ #BQFaverateWidget {
+height:450.0;
+layout:hbox;
+width:320.0;
+left:0.0;
+valign:center;
+top:0.0;
+}
+ #panel0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#FFFFE0;
+width:fill;
+}
+ #panel1 {
+halign:center;
+height:450.0;
+layout:vbox;
+width:fill;
+}
+ #listview0 {
+height:400;
+background:#FFFFCC;
+width:fill;
+}
+ #widget0 {
+height:44;
+width:320.0;
+}

@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><project><application id="umpbqmobile" name="umpbqmobile" version="1" icon="bqmobile/UI/themes/ios7/designer/app.png" defaultPackage="com.yonyou.uap"></application><layout><appBase>www</appBase><main>www/Index.html</main><jslib>www/jslib</jslib><jsapp>www/jsapp</jsapp><css>www/css</css><nativeBase>native</nativeBase></layout></project>

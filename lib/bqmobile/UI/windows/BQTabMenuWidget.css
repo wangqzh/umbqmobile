@@ -1,0 +1,92 @@
+ #region1 {
+height:fill;
+width:fill;
+layout:relative;
+}
+ #BQTabMenuWidget {
+height:50.0;
+width:fill;
+layout:hbox;
+left:0.0;
+valign:center;
+top:120.0;
+}
+ #panel0 {
+halign:center;
+height:44.0;
+width:fill;
+layout:vbox;
+background:#FFFFE0;
+}
+ #toolbar0 {
+height:44.0;
+width:fill;
+layout:hbox;
+valign:center;
+background-image:toolbar.png;
+}
+ #label0 {
+hAlign:center;
+height:fill;
+weight:21;
+widthWrap:63.0;
+color:#000000;
+font-size:14;
+width:wrap;
+font-family:default;
+vAlign:center;
+}
+ #imagebuttonSelf {
+hAlign:center;
+width:64;
+icon-width:25;
+font-pressed-color:#e50011;
+pressed-color:#f8f8f8;
+icon-height:25;
+height:40;
+color:#919191;
+font-size:10;
+icon-background-image:themes/ios7/designer/tab_fav_touch.png;
+icon-pressed-image:themes/ios7/designer/tool_fav_touch.png;
+font-family:default;
+vAlign:center;
+icon-text-spacing:5;
+}
+ #label1 {
+hAlign:center;
+height:fill;
+weight:22;
+widthWrap:66.0;
+color:#000000;
+font-size:14;
+width:wrap;
+font-family:default;
+vAlign:center;
+}
+ #imagebuttonAll {
+hAlign:center;
+width:64;
+icon-width:25;
+font-pressed-color:#e50011;
+pressed-color:#f8f8f8;
+icon-height:25;
+height:40;
+color:#919191;
+font-size:10;
+icon-background-image:themes/ios7/designer/tool_edit.png;
+icon-pressed-image:themes/ios7/designer/tool_edit_disable.png;
+font-family:default;
+vAlign:center;
+icon-text-spacing:5;
+}
+ #label2 {
+hAlign:center;
+height:fill;
+weight:21;
+widthWrap:63.0;
+color:#000000;
+font-size:14;
+width:wrap;
+font-family:default;
+vAlign:center;
+}

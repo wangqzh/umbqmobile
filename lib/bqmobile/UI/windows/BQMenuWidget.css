@@ -1,0 +1,60 @@
+ #region1 {
+height:fill;
+layout:relative;
+width:fill;
+}
+ #panel0 {
+margin-right:4;
+halign:center;
+height:450;
+layout:vbox;
+width:fill;
+margin-left:4;
+left:0.0;
+margin-top:2;
+top:0.0;
+}
+ #BQMenuWidget {
+height:fill;
+layout:hbox;
+width:fill;
+valign:center;
+}
+ #panel1 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#FFFFE0;
+width:fill;
+}
+ #button0 {
+hAlign:center;
+height:40.0;
+color:#000000;
+background:#ffffff;
+font-size:14;
+width:fill;
+font-family:default;
+font-pressed-color:#f2adb2;
+vAlign:center;
+pressed-color:#ff8080;
+}
+ #button1 {
+hAlign:center;
+height:44;
+color:#000000;
+background:#ffffff;
+font-size:14;
+width:fill;
+font-family:default;
+margin-top:2;
+font-pressed-color:#f2adb2;
+vAlign:center;
+pressed-color:#ff8080;
+}
+ #listview0 {
+height:360.0;
+background:#FFFFCC;
+width:fill;
+margin-top:2;
+}
