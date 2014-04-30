@@ -40,21 +40,21 @@ protected UMSwitch switch0 = null;
 protected UMButton button0 = null;
 
 	
-	protected final static int ID_BQLOGINPAGECONSET = 126734119;
-protected final static int ID_VIEWPAGE0 = 584540827;
-protected final static int ID_NAVIGATORBAR0 = 1557754826;
-protected final static int ID_LABEL0 = 1450354810;
-protected final static int ID_LABEL2 = 536306057;
-protected final static int ID_LABEL1 = 690320062;
-protected final static int ID_PANEL0 = 868722209;
-protected final static int ID_TEXTBOX0 = 1988539243;
-protected final static int ID_LABEL3 = 241661917;
-protected final static int ID_TEXTBOX1 = 1308936341;
-protected final static int ID_PANEL1 = 1771313684;
-protected final static int ID_LABEL4 = 2083253535;
-protected final static int ID_LABEL5 = 897594332;
-protected final static int ID_SWITCH0 = 691814745;
-protected final static int ID_BUTTON0 = 1535060057;
+	protected final static int ID_BQLOGINPAGECONSET = 93551218;
+protected final static int ID_VIEWPAGE0 = 401619267;
+protected final static int ID_NAVIGATORBAR0 = 1921549208;
+protected final static int ID_LABEL0 = 183711628;
+protected final static int ID_LABEL2 = 844118633;
+protected final static int ID_LABEL1 = 1062503546;
+protected final static int ID_PANEL0 = 1332814034;
+protected final static int ID_TEXTBOX0 = 668935689;
+protected final static int ID_LABEL3 = 984165037;
+protected final static int ID_TEXTBOX1 = 163676958;
+protected final static int ID_PANEL1 = 751175748;
+protected final static int ID_LABEL4 = 929876276;
+protected final static int ID_LABEL5 = 602544852;
+protected final static int ID_SWITCH0 = 1534371527;
+protected final static int ID_BUTTON0 = 1903684835;
 
 	
 	protected UMWindow currentPage = null;

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<contexts namespace="com.yonyou.uap" package="com.yonyou.uap"> 
+  <context id="AnalysisTopic" from-type="context" filter="" iscascade="false"> 
+    <fieldset id="topics" from="TopicRow" type="" relation="n" parent-field="" child-field="" fullclassname="" from-type="context" iscascade="false"> 
+      <field id="id" type="string"/>  
+      <field id="name" type="string"/>  
+      <field id="note" type="string"/>  
+      <fieldset id="childrows" from="TopicChildRow" type="" relation="n" parent-field="" child-field="" fullclassname="" from-type="context" iscascade="false"> 
+        <field id="id" type="string"/>  
+        <field id="name" type="string"/>  
+        <field id="note" type="string"/>  
+        <field id="dsl" type="Blob"/> 
+      </fieldset> 
+    </fieldset> 
+  </context> 
+</contexts>

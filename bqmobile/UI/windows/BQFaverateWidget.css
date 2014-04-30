@@ -1,0 +1,87 @@
+ #region1 {
+height:fill;
+layout:relative;
+width:fill;
+}
+ #BQFaverateWidget {
+height:450.0;
+layout:hbox;
+width:320.0;
+left:0.0;
+valign:center;
+top:0.0;
+}
+ #panel0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#FFFFE0;
+width:fill;
+}
+ #toolbar0 {
+height:44.0;
+layout:hbox;
+width:fill;
+valign:center;
+background-image:tabbar;
+}
+ #imagebutton0 {
+hAlign:center;
+width:44;
+icon-width:25;
+font-pressed-color:#e50011;
+icon-height:25;
+height:fill;
+color:#919191;
+font-size:10;
+icon-background-image:tool_fav;
+icon-pressed-image:tool_fav_touch;
+font-family:default;
+vAlign:center;
+icon-text-spacing:3;
+}
+ #label0 {
+hAlign:center;
+height:fill;
+weight:1;
+color:#000000;
+font-size:14;
+width:0;
+font-family:default;
+vAlign:center;
+}
+ #imagebutton1 {
+hAlign:center;
+width:44;
+icon-width:25;
+font-pressed-color:#e50011;
+icon-height:25;
+height:fill;
+color:#919191;
+font-size:10;
+icon-background-image:tool_edit;
+icon-pressed-image:tool_edit_touch;
+font-family:default;
+vAlign:center;
+icon-text-spacing:3;
+}
+ #imagebutton4 {
+hAlign:center;
+width:44;
+icon-width:25;
+font-pressed-color:#e50011;
+icon-height:25;
+height:fill;
+color:#919191;
+font-size:10;
+icon-background-image:tool_del;
+icon-pressed-image:tool_del_touch;
+font-family:default;
+vAlign:center;
+icon-text-spacing:3;
+}
+ #listview0 {
+height:400;
+background:#FFFFCC;
+width:fill;
+}

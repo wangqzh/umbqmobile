@@ -1,0 +1,107 @@
+ #region1 {
+height:fill;
+layout:relative;
+width:fill;
+}
+ #BQAnalysisTopicRowsWidget {
+height:70;
+layout:hbox;
+width:320.0;
+left:0.0;
+valign:center;
+top:50.0;
+}
+ #panel4 {
+height:70;
+layout:hbox;
+background:#ffffff;
+width:fill;
+valign:center;
+}
+ #panel7 {
+height:fill;
+layout:hbox;
+background:#ffffff;
+width:44;
+valign:center;
+}
+ #image3 {
+height:44;
+width:fill;
+}
+ #panel21 {
+padding-right:15;
+height:fill;
+weight:1;
+layout:hbox;
+width:0;
+valign:center;
+padding-bottom:1;
+background-image:themes/ios7/designer/list_row_down3.png;
+}
+ #panel8 {
+padding-right:8;
+padding-top:12;
+halign:center;
+height:fill;
+weight:1;
+background:#ffffff;
+layout:vbox;
+width:0;
+padding-bottom:12;
+}
+ #panel10 {
+height:18;
+layout:hbox;
+background:#ffffff;
+width:fill;
+margin-bottom:12;
+valign:center;
+}
+ #label4 {
+hAlign:left;
+height:fill;
+color:#000000;
+font-size:16;
+width:fill;
+font-family:default;
+vAlign:center;
+}
+ #panel11 {
+height:15;
+layout:hbox;
+background:#ffffff;
+width:fill;
+valign:center;
+}
+ #label5 {
+hAlign:left;
+height:fill;
+weight:142;
+color:#6f6f6f;
+font-size:13;
+width:0;
+font-family:default;
+vAlign:center;
+}
+ #label6 {
+hAlign:right;
+height:fill;
+weight:105;
+color:#6f6f6f;
+font-size:13;
+width:0;
+font-family:default;
+vAlign:center;
+}
+ #panel9 {
+height:fill;
+layout:hbox;
+background:#ffffff;
+width:8;
+valign:center;
+}
+ #image2 {
+height:13;
+width:fill;
+}

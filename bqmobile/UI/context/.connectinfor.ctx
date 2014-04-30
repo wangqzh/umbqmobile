@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graph>
+  <model id="ConectionInfo" x="100" y="100" type="RectModel" hasTarget="false" hasSource="false">
+    <context id="ConectionInfo" from-type="mbe">
+      <field id="ip" type="string"/>
+      <field id="port" type="string"/>
+      <field id="ishttps" type="string"/>
+    </context>
+  </model>
+</graph>

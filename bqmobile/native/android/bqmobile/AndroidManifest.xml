@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.yonyou"
+    package="com.yonyou.uap"
     android:versionCode="1"
     android:versionName="1" >
    
@@ -40,39 +40,46 @@
     	android:name="com.yonyou.uap.um.core.UAPMobileApplication"
         android:allowBackup="true"
         android:icon="@drawable/app"
-        android:label="@string/bqmobile"
+        android:label="@string/umpbqmobile"
         android:theme="@style/AppTheme" >
         
 		<activity
-  android:name="com.yonyou.BQLoginPageconsetExtendActivity"  
+  android:name="com.yonyou.uap.BQDetailAnalysisContentPageExtendActivity"  
 	  android:windowSoftInputMode="adjustPan|stateHidden"
  >
-<intent-filter> <action android:name="com.yonyou.BQLoginPageconset" />
+<intent-filter> <action android:name="com.yonyou.uap.BQDetailAnalysisContentPage" />
 <category android:name="android.intent.category.DEFAULT" /></intent-filter>
 </activity>
 <activity
-  android:name="com.yonyou.WelcomePageExtendActivity"  
+  android:name="com.yonyou.uap.BQWelcomePageExtendActivity"  
 	  android:windowSoftInputMode="adjustPan|stateHidden"
  >
 <intent-filter>
   <action android:name="android.intent.action.MAIN" />
   <category android:name="android.intent.category.LAUNCHER" />
 </intent-filter>
-<intent-filter> <action android:name="com.yonyou.WelcomePage" />
+<intent-filter> <action android:name="com.yonyou.uap.BQWelcomePage" />
 <category android:name="android.intent.category.DEFAULT" /></intent-filter>
 </activity>
 <activity
-  android:name="com.yonyou.BQHomePageExtendActivity"  
+  android:name="com.yonyou.uap.BQFramePageExtendActivity"  
 	  android:windowSoftInputMode="adjustPan|stateHidden"
  >
-<intent-filter> <action android:name="com.yonyou.BQHomePage" />
+<intent-filter> <action android:name="com.yonyou.uap.BQFramePage" />
 <category android:name="android.intent.category.DEFAULT" /></intent-filter>
 </activity>
 <activity
-  android:name="com.yonyou.BQLoginPageExtendActivity"  
+  android:name="com.yonyou.uap.BQLoginPageExtendActivity"  
 	  android:windowSoftInputMode="adjustPan|stateHidden"
  >
-<intent-filter> <action android:name="com.yonyou.BQLoginPage" />
+<intent-filter> <action android:name="com.yonyou.uap.BQLoginPage" />
+<category android:name="android.intent.category.DEFAULT" /></intent-filter>
+</activity>
+<activity
+  android:name="com.yonyou.uap.BQLoginConsetPageExtendActivity"  
+	  android:windowSoftInputMode="adjustPan|stateHidden"
+ >
+<intent-filter> <action android:name="com.yonyou.uap.BQLoginConsetPage" />
 <category android:name="android.intent.category.DEFAULT" /></intent-filter>
 </activity>
 

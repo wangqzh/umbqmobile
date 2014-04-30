@@ -1,0 +1,17 @@
+ #BQWelcomePage {
+halign:center;
+height:fill;
+layout:vbox;
+width:fill;
+}
+ #viewPage0 {
+halign:center;
+height:fill;
+layout:vbox;
+background:#F5F5F5;
+width:fill;
+}
+ #imageLogo {
+height:fill;
+width:fill;
+}

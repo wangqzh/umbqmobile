@@ -1,10 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<application id="bqmobile" appname="bqmobile" versionCode="1" versionName="1" icon="app" theme="ios7" package="com.yonyou" language="zh_cn"> 
+<application id="umpbqmobile" appname="umpbqmobile" versionCode="1" versionName="1" icon="app" theme="ios7" package="com.yonyou.uap" language="zh_cn"> 
   <permission id="internet"/>  
-  <start view="WelcomePage"/>  
-  <view id="BQLoginPageconset" ref="BQLoginPageConset.dsl"/>
-  <view id="WelcomePage" ref="WelcomePage.dsl"/>
-  <view id="BQHomePage" ref="BQHomePage.dsl"/>
-  <view id="BQLoginPage" ref="BQLoginPage.dsl"/>
+  <start view="BQWelcomePage"/>  
+  <view id="BQDetailAnalysisContentPage" ref="BQDetailAnalysisContentPage.dsl"/>  
+  <view id="BQWelcomePage" ref="BQWelcomePage.dsl"/>  
+  <view id="BQFramePage" ref="BQFramePage.dsl"/>  
+  <view id="BQLoginPage" ref="BQLoginPage.dsl"/>  
+  <view id="BQLoginConsetPage" ref="BQLoginConsetPage.dsl"/>  
+  <view id="BQGroupListPage" ref="BQGroupListPage.dsl"/>
 </application>

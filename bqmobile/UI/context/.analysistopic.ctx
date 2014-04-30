@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graph>
+  <model id="AnalysisTopic" x="32" y="53" type="EmptyRectModel" hasTarget="false" hasSource="true">
+    <context id="AnalysisTopic" from-type="context">
+      <fieldset id="topics" from="TopicRow" type="" relation="n" fullclassname="" from-type="context" ref-model="EmptyRectModel"/>
+    </context>
+  </model>
+  <model id="TopicRow" x="193" y="51" type="EmptyRectModel" hasTarget="true" hasSource="true">
+    <context id="TopicRow" from-type="context">
+      <field id="id" type="string"/>
+      <field id="name" type="string"/>
+      <field id="note" type="string"/>
+      <fieldset id="childrows" from="TopicChildRow" type="" relation="n" fullclassname="" from-type="context" ref-model="EmptyRectModel"/>
+    </context>
+  </model>
+  <model id="TopicChildRow" x="358" y="49" type="EmptyRectModel" hasTarget="true" hasSource="false">
+    <context id="TopicChildRow" from-type="context">
+      <field id="id" type="string"/>
+      <field id="name" type="string"/>
+      <field id="note" type="string"/>
+      <field id="dsl" type="Blob"/>
+    </context>
+  </model>
+</graph>

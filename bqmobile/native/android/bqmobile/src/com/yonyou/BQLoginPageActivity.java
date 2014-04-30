@@ -38,19 +38,19 @@ protected UMSwitch switchAutoLogin = null;
 protected UMButton buttonLogin = null;
 
 	
-	protected final static int ID_BQLOGINPAGE = 1090256587;
-protected final static int ID_VIEWPAGELOGIN = 1529053916;
-protected final static int ID_NAVIGATORBAR0 = 1908268208;
-protected final static int ID_BUTTON0 = 1657888153;
-protected final static int ID_LABELLOGINTITLE = 776431612;
-protected final static int ID_BUTTONCONSET = 2053384573;
-protected final static int ID_TEXTBOXUSERNAME = 1123325149;
-protected final static int ID_TEXTBOXPASSWORD = 2133847069;
-protected final static int ID_PANEL0 = 1532568837;
-protected final static int ID_LABEL2 = 1205778244;
-protected final static int ID_LABELAUTOLOGIN = 583553611;
-protected final static int ID_SWITCHAUTOLOGIN = 576042050;
-protected final static int ID_BUTTONLOGIN = 1641982083;
+	protected final static int ID_BQLOGINPAGE = 1926167759;
+protected final static int ID_VIEWPAGELOGIN = 2002821104;
+protected final static int ID_NAVIGATORBAR0 = 1887203899;
+protected final static int ID_BUTTON0 = 250415901;
+protected final static int ID_LABELLOGINTITLE = 898001421;
+protected final static int ID_BUTTONCONSET = 1304194727;
+protected final static int ID_TEXTBOXUSERNAME = 698701021;
+protected final static int ID_TEXTBOXPASSWORD = 1705323667;
+protected final static int ID_PANEL0 = 1027860233;
+protected final static int ID_LABEL2 = 1652939067;
+protected final static int ID_LABELAUTOLOGIN = 972530786;
+protected final static int ID_SWITCHAUTOLOGIN = 1623812725;
+protected final static int ID_BUTTONLOGIN = 2013169788;
 
 	
 	protected UMWindow currentPage = null;

@@ -15,10 +15,10 @@
             <hdpi></hdpi>
             <xhdpi></xhdpi>
         </launcherIcon>
-        <packageName>com.yonyou</packageName>
+        <packageName>bqmobile</packageName>
     </device>
     <buildEnv>
-        <property name="package.name">com.yonyou</property>
+        <property name="package.name">bqmobile</property>
     </buildEnv>
     <build>
         <preInit></preInit>

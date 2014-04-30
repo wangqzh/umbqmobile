@@ -28,9 +28,9 @@ protected XVerticalLayout welcomePageView = null;
 protected UMImage BQBackgroundView = null;
 
 	
-	protected final static int ID_WELCOMEPAGE = 618813661;
-protected final static int ID_WELCOMEPAGEVIEW = 2055706565;
-protected final static int ID_BQBACKGROUNDVIEW = 922657165;
+	protected final static int ID_WELCOMEPAGE = 969762366;
+protected final static int ID_WELCOMEPAGEVIEW = 454554896;
+protected final static int ID_BQBACKGROUNDVIEW = 1608750339;
 
 	
 	protected UMWindow currentPage = null;

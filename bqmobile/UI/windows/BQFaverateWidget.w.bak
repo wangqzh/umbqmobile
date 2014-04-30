@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<region id="region1">
+    <import ref="BQFaverateWidget.css" type="css"/>
+    <import ref="BQAnalysisTopicRowWidget.w" type="widget"/>
+    <widget-define id="BQFaverateWidget" name="我的关注">
+        <div id="panel0">
+            <div id="panel1">
+                <listView id="listview0" childIndicator="BQAnalysisTopicRowWidget">
+                    <widget id="listview0_childWgt0" ref="BQAnalysisTopicRowWidget"/> 
+                </listView>
+                <widget id="widget0" ref="BQFaverateToolbarWidget"/> 
+            </div> 
+        </div> 
+    </widget-define> 
+</region>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<graph>
+  <model id="delaytime" x="239" y="78" type="EmptyRectModel" hasTarget="false" hasSource="false">
+    <context id="delaytime" from-type="context">
+      <field id="second" type="float"/>
+    </context>
+  </model>
+</graph>
